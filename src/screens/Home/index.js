@@ -36,7 +36,6 @@ const Home = () => {
       [itemId]: !prev[itemId],
     }));
     
-    // Ensure inputValues are initialized with the existing values
     if (!editMode[itemId]) {
       const currentItem = cartItems.find(item => item.id === itemId);
       setInputValues(prev => ({
