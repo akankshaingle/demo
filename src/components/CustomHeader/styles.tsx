@@ -1,29 +1,30 @@
 import {StyleSheet} from 'react-native';
 import {Colors} from '../../utils/Colors';
-import {scale, width} from '../../utils/Scale';
+import {height, scale} from '../../utils/Scale';
 
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: Colors.white,
+    backgroundColor: Colors.cetaceanBlue,
     flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingVertical: 20,
-    width:width*0.8,
+    paddingTop: height * 0.08,
+    paddingBottom: height * 0.02,
+    paddingHorizontal: 15,
+    alignItems:'center',
+  },
+  iconContainer: {
+    backgroundColor: Colors.lavender,
+    borderRadius: 8,
+    padding: 10,
   },
   title: {
-    fontSize: scale(24),
-    fontWeight: '500',
-    color: Colors.black,
-    marginHorizontal: 8,
+    fontSize: scale(20),
+    fontWeight: '600',
+    color: Colors.white,
+    paddingHorizontal:15,
   },
   icon: {
-    height: 18,
-    width: 18,
-  },
-  titleView: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    height: 20,
+    width: 20,
   },
   centerIcon: {
     height: 24,
