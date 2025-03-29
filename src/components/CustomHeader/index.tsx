@@ -11,27 +11,15 @@ type Props = {
 const CustomHeader = ({title}: Props) => {
   return (
     <View style={styles.container}>
-      <Image
-        source={Images.drawer}
-        style={styles.icon}
-        tintColor={Colors.black}
-        resizeMode="cover"
-      />
-      <View style={styles.titleView}>
+      <View style={styles.iconContainer}>
         <Image
-          source={Images.plant}
-          style={styles.centerIcon}
-          tintColor={Colors.primary}
+          source={Images.arrow_left}
+          style={styles.icon}
+          tintColor={Colors.black}
           resizeMode="cover"
         />
-        <Text style={styles.title}>{title}</Text>
       </View>
-      <Image
-        source={Images.shoppingCart}
-        style={styles.icon}
-        tintColor={Colors.black}
-        resizeMode="cover"
-      />
+        <Text style={styles.title}>{title}</Text>
     </View>
   );
 };
