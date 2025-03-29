@@ -1,3 +1,6 @@
 export const Constants = {
-    HOME: 'HOME',
+    rHOME: 'rHOME',
+    rLOGIN: 'rLOGIN',
+    rSPLASH: 'rSPLASH',
+    rLANDING: 'rLANDING',
 };

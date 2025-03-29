@@ -1,28 +1,12 @@
 const Strings = {
   appName: 'Demo',
+
+  //-----*MESSAGES*-----
   myCart: 'My Cart',
-  itemList: 'Item List',
-  noItemsAdded: 'No items added',
-  addItem: 'ADD  ITEM',
-  addMoreItem: 'ADD MORE ITEM',
-  update: 'UPDATE',
-  edit: 'EDIT ITEM',
-  remove: 'REMOVE',
-  description: 'Description',
-  partName: 'Part Name',
-  vehicleMake: 'Vehicle Make',
-  vehicleModel: 'Vehicle Model',
-  vehicleYear: 'Vehicle Year',
-  partType: 'Part Type',
-  item:'Item',
-  paid:'PAID',
-  pricingDetails: 'Pricing Details',
-  price: 'Price',
-  totalAmount: 'Total Amount',
-  items: 'items',
-  // item: 'item',
-  postingRequirement: 'For posting Requirement You Need to Pay',
-  currency: 'SAR',
+
+  //-----*LABELS*-----
+  lableLogin: 'Login',
+  lableLogout: 'Logout',
 };
 
 export default Strings;
