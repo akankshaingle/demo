@@ -1,7 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import {
   Image,
-  ImageBackground,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -93,7 +92,7 @@ const styles = StyleSheet.create({
   heading: {
     color: Colors.arsenic,
     fontSize: scale(40),
-    fontWeight: '800',
+    fontWeight: '700',
   },
   subHeading: {
     color: Colors.lightGray,

@@ -6,6 +6,9 @@ const Strings = {
 
   //-----*LABELS*-----
   lableLogin: 'Login',
+  lableGoogle: 'Google',
+  lableFacebook: 'Facebook',
+  lableLoginWithGoogle: 'Login with Google',
   lableLogout: 'Logout',
 };
 
