@@ -21,6 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 **/.xcode.env.local
+ios/client_494826881255-ff2urlohuauemggvo3vamlnl1f3ia4pb.apps.googleusercontent.com.plist
 
 # Android/IntelliJ
 #
