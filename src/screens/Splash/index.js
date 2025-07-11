@@ -6,7 +6,8 @@ import {scale} from '../../utils/Scale';
 const Splash = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-        navigation.navigate(Constants.rLANDING);
+        navigation.navigate(Constants.rHOME);
+        // navigation.navigate(Constants.rLANDING);
     }, 3000);
   });
 
